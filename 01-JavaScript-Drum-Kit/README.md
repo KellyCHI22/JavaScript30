@@ -9,6 +9,8 @@
 - When a user presses a certain key, an audio will be played accordingly.
 - A short animation will appear when the key is pressed.
 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/01-JavaScript-Drum-Kit/)
+
 ## :pushpin: Solution
 
 ### My solution
