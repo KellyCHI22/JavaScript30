@@ -7,7 +7,7 @@
 
 - Pointers should rotate according to the current time, yeah, just like a real clock.
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/02-JS-and-CS-Clock/)
 
 ## :pushpin: Solution
 

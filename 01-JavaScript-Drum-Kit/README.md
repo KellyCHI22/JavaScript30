@@ -1,4 +1,3 @@
-
 # 01 - JavaScript Drum Kit
 ## :eyes: Introduction
 
