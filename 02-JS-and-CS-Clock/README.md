@@ -13,9 +13,9 @@
 
 ### My solution
 
-Added a `if/else` statement to prevent the second pointer to do weird transition behavior. Otherwise it's mostly the same as example solution.
+Added a function to prevent pointers to do weird transition behavior at degree 90. Otherwise it's mostly the same as example solution.
 
-Also added numbers and the circle in the middle for styling purpose.
+Also added numbers and changed color and width of pointers for styling purpose.
 
 ```javascript
 const secondPointer = document.querySelector('.second-hand')
