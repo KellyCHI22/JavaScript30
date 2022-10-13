@@ -1,0 +1,50 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 15px;
+    --blend-mode: normal;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    background-image: url('https://source.unsplash.com/7bwQXzbF6KE/800x500');
+    background-size: cover;
+    background-blend-mode: var(--blend-mode);
+    filter: blur(var(--blur));
+}
+
+.h1 {
+    color: var(--base);
+}
+
+/*
+    misc styles, nothing to do with CSS variables
+*/
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+select {
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+}
+
+select option {
+    font-size: 30px;
+}
