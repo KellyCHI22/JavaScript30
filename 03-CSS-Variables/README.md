@@ -7,7 +7,7 @@
 
 - When a user drags or picks an option, the CSS variables should update accordingly.
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/03-CSS-Variables/)
 
 ## :pushpin: Solution
 
