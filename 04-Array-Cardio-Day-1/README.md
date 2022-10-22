@@ -5,7 +5,7 @@
 
 - Strengthen your JavaScript skills by using those array methods!
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/04-Array-Cardio-Day-1/)
 
 ## :pencil2: Takeaways
 
