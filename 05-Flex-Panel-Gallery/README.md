@@ -9,7 +9,7 @@
 
 - When a user clicks on an image, the image will expand and some text will appear. 
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/05-Flex-Panel-Gallery/)
 
 ## :pushpin: Solution
 
