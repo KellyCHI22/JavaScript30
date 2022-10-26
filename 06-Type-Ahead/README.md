@@ -7,7 +7,7 @@
 
 - When a user type in a certain word, a list of cities or states that contain the word wil be displayed. Plus, the key word will be highlighted with yellow background.
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/06-Type-Ahead/)
 
 ## :pushpin: Solution
 
