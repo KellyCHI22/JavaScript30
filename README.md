@@ -13,6 +13,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 | 04  | Array Cardio Day 1          | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/04-Array-Cardio-Day-1/README.md)  | [DEMO](https://kellychi22.github.io/JavaScript30/04-Array-Cardio-Day-1/)  |
 | 05  | Flex Panel Gallery          | [README](https://github.com/KellyCHI22/JavaScript30/tree/main/05-Flex-Panel-Gallery)            | [DEMO](https://kellychi22.github.io/JavaScript30/05-Flex-Panel-Gallery/)  |
 | 06  | Ajax Type Ahead             | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/06-Type-Ahead/README.md)          | [DEMO](https://kellychi22.github.io/JavaScript30/06-Type-Ahead/)          |
+| 07  | Array Cardio Day 2          | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/07-Array-Cardio-Day-2/README.md)  | [DEMO](https://kellychi22.github.io/JavaScript30/07-Array-Cardio-Day-2/)  |
 
 ___
 
