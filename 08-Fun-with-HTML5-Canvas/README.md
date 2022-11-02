@@ -7,7 +7,7 @@
 
 - Just like Windows Paint, when the user draws on the canvas with the mouse, it creates colorful lines and texts.
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/08-Fun-with-HTML5-Canvas/)
 
 ## :pushpin: Solution
 
