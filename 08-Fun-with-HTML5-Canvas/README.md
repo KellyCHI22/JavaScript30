@@ -193,8 +193,13 @@ function draw(e) {
     }
 }
 ```
+### 7. Use `globalCompositeOperation` for cool color blending
+Works similarly as CSS blend modes. Different operations can create interesting effects as the user draws. For available values, please refer to [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation).
+```javascript
+ctx.globalCompositeOperation = 'multiply';
+```
 
-### 7. Optional: Draw texts instead of simple lines
+### 8. Optional: Draw texts instead of simple lines
 Besides drawing lines on the canvas, we can also draw texts. We need to set the font first, especially the font size (the syntax is same as the CSS font specifier). Then we can call `strokeText()` while passing in a string and the x, y position.
 ```javascript
 function draw(e) {
@@ -203,7 +208,7 @@ function draw(e) {
 }
 ```
 
-### 8. Optional: Update font size instead of line width while drawing
+### 9. Optional: Update font size instead of line width while drawing
 Instead of updating the line width, I want to update the font size while drawing. (If updating the line width, the text will be very difficult to see) For doing so, I create a variable to store the fontSize, and update it while `draw()` function is running. 
 
 Just like how the line width changes in the example solution, here the font size will change between the range of 50 and 150.
@@ -229,5 +234,6 @@ function draw(e) {
 ## :book: References
 
 * [Canvas API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
-* [CanvasRenderingContext2D.strokeText() - MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeText)
 * [Colors HSL - w3schools](https://www.w3schools.com/colors/colors_hsl.asp)
+* [CanvasRenderingContext2D.globalCompositeOperation - MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation)
+*  [CanvasRenderingContext2D.strokeText() - MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeText)
