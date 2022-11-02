@@ -1,4 +1,4 @@
-# 07 - Fun with HTML5 Canvas
+# 08 - Fun with HTML5 Canvas
 ## :eyes: Introduction
 
 ![](./screenshot_1.jpg)
