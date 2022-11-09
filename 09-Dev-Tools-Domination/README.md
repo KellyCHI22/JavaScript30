@@ -7,7 +7,8 @@
 
 - Master Dev Tools to make your developer life a bit easier!
 
-### Demo: 👉 [Click me]()
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/09-Dev-Tools-Domination/)
+(note: The outputs in the demo is different from the examples below)
 
 ## :pencil2: Takeaways
 

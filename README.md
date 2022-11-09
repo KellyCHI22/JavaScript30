@@ -15,6 +15,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 | 06  | Ajax Type Ahead             | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/06-Type-Ahead/README.md)            | [DEMO](https://kellychi22.github.io/JavaScript30/06-Type-Ahead/)            |
 | 07  | Array Cardio Day 2          | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/07-Array-Cardio-Day-2/README.md)    | [DEMO](https://kellychi22.github.io/JavaScript30/07-Array-Cardio-Day-2/)    |
 | 08  | Fun with HTML5 Canvas       | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/08-Fun-with-HTML5-Canvas/README.md) | [DEMO](https://kellychi22.github.io/JavaScript30/08-Fun-with-HTML5-Canvas/) |
+| 09  | Dev Tools Domination        | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/09-Dev-Tools-Domination/README.md)  | [DEMO](https://kellychi22.github.io/JavaScript30/09-Dev-Tools-Domination/)  |
 
 ___
 
