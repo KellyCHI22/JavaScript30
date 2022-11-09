@@ -7,7 +7,7 @@
 
 - When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/10-Hold-Shift-and-Check-Checkboxes/) 
 
 ## :pushpin: Solution
 
