@@ -7,7 +7,7 @@
 
 - Customized HTML5 video player, with sliders for volume and speed, as well as fast forward and rewind buttons.
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/11-Custom-Video-Player/) 
 
 ## :pushpin: Solution
 
