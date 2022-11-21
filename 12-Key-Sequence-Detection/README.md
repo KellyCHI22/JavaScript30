@@ -7,7 +7,7 @@
 
 - When a user enters the secret code, there will be a surprise!
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/12-Key-Sequence-Detection/) 
 
 ## :pushpin: Solution
 

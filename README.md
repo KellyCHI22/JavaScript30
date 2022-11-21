@@ -18,6 +18,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 | 09  | Dev Tools Domination        | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/09-Dev-Tools-Domination/README.md)            | [DEMO](https://kellychi22.github.io/JavaScript30/09-Dev-Tools-Domination/)            |
 | 10  | Check Multiple Checkboxes   | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/10-Hold-Shift-and-Check-Checkboxes/README.md) | [DEMO](https://kellychi22.github.io/JavaScript30/10-Hold-Shift-and-Check-Checkboxes/) |
 | 11  | Custom HTML5 Video Player   | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/11-Custom-Video-Player/README.md)             | [DEMO](https://kellychi22.github.io/JavaScript30/11-Custom-Video-Player/)             |
+| 12  | Key Sequence Detection      | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/12-Key-Sequence-Detection/README.md)          | [DEMO](https://kellychi22.github.io/JavaScript30/12-Key-Sequence-Detection/)          |
 
 
 
