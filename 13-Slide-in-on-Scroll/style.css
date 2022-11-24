@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 0 5rem;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5rem;
+}
+
+p {
+    max-width: 500px;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.slide-in {
+    opacity: 0;
+    transition: all .5s;
+}
+
+.slide-in.from-left {
+    transform: translateX(-30%) scale(0.95);
+}
+
+.slide-in.from-right {
+    transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+    opacity: 1;
+    transform: translateX(0%) scale(1);
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.image:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.image:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.image:nth-child(4) {
+    transition-delay: 600ms;
+}
