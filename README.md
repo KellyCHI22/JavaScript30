@@ -19,6 +19,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 | 10  | Check Multiple Checkboxes   | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/10-Hold-Shift-and-Check-Checkboxes/README.md) | [DEMO](https://kellychi22.github.io/JavaScript30/10-Hold-Shift-and-Check-Checkboxes/) |
 | 11  | Custom HTML5 Video Player   | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/11-Custom-Video-Player/README.md)             | [DEMO](https://kellychi22.github.io/JavaScript30/11-Custom-Video-Player/)             |
 | 12  | Key Sequence Detection      | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/12-Key-Sequence-Detection/README.md)          | [DEMO](https://kellychi22.github.io/JavaScript30/12-Key-Sequence-Detection/)          |
+| 13  | Slide in on Scroll          | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/13-Slide-in-on-Scroll/README.md)              | [DEMO](https://kellychi22.github.io/JavaScript30/13-Slide-in-on-Scroll/)              |
 
 
 

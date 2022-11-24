@@ -68,19 +68,24 @@ p {
     transform: translateX(0%) scale(1);
 }
 
-.images {
+.partners {
     display: flex;
     gap: 20px;
 }
 
-.image:nth-child(2) {
+.partner {
+    width: 200px;
+    height: 200px;
+}
+
+.partner:nth-child(2) {
     transition-delay: 200ms;
 }
 
-.image:nth-child(3) {
+.partner:nth-child(3) {
     transition-delay: 400ms;
 }
 
-.image:nth-child(4) {
+.partner:nth-child(4) {
     transition-delay: 600ms;
 }
