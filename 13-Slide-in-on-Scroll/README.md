@@ -54,7 +54,7 @@ slideInImages.forEach(image => observer.observe(image));
 ### Example solution
 * The demo for example solution is here 👉 **[Click me](https://kellychi22.github.io/JavaScript30/13-Slide-in-on-Scroll/example-solution-demo/)** 
   
-Compared to the solution using the Intersection Observer API, this approach requires more math (thus is more complicated, haha). But there are still a few things to learn from.
+Compared to the solution using the Intersection Observer API, this approach requires using a debouncing function and more math (thus is more complicated, haha). But there are still a few things to learn from.
 
 ```javascript
 function debounce(func, wait = 20, immediate = true) {
@@ -126,9 +126,9 @@ function debounce(cb, delay = 250) {
 }
 ```
 
-This debounce function takes in a callback function, cb, as the first parameter and a delay as the second parameter. We are then returning a new function at the end of the debounce function which acts as a wrapper for our callback. **This wrapper will ensure that the callback is only called after the delay that is passed into the debounce function.** 
+This debounce function takes in a callback function, `cb`, as the first parameter and a `delay` as the second parameter. We are then returning a new function at the end of the debounce function which acts as a wrapper for our callback. **This wrapper will ensure that the callback is only called after the delay that is passed into the debounce function.** 
 
-Lastly, we clear any existing timeout every time we call debounce which ensures that if we call debounce before the delay has finished then it will restart the timer.
+Lastly, we clear any existing timeout every time we call debounce which ensures that if we call debounce before the delay has finished then **it will restart the timer.**
 
 In the example solution, the debounce function will wait 20ms before registering an event, which will reduce browser overhead.
 ```javascript
@@ -136,7 +136,7 @@ window.addEventListener('scroll', debounce(checkSlide));
 ```
 
 #### What is throttling?
-Another way to avoid performance issues is to use **Throttling**, which is used to call a function after every millisecond or a particular interval of time (only the first click is executed immediately).
+Another way to avoid performance issues is to use **throttling**, which is used to call a function after every millisecond or a particular interval of time (only the first click is executed immediately).
 
 According to [this article](https://blog.webdevsimplified.com/2022-03/debounce-vs-throttle/), debouncing is better to be used for autocomplete text, while throttling is for dealing with things like resizing elements or drag and drop. For more comparison between debouncing and throttling, please refer to the article and [this video](https://www.youtube.com/watch?v=cjIswDCKgu0).
 
@@ -168,7 +168,7 @@ function checkSlide() {
 ```
 ### 3. Easier way to detect visibility of an element: Intersection Observer API
 
-Ok, after all the math stuff above, now we have a very powerful and easy to use tool to detect visibility of an element, which is the **Intersection Observer API**.
+Ok, after all the math stuff above, now we have a very powerful and easy to use tool to detect visibility of an element, which is the **intersection observer API**.
 
 #### Simple usage
 To implement an observer, first we need to declare a new observer by using the **new** keyword. Then, for the first parameter, we can pass in a callback function which observes one or several entries. 
@@ -187,7 +187,7 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 ```
-After declaring the observer, we can select all the elements that have the `slide-in` class. Then, make all those elements being watched by the observer by using the method `observe()`.
+After declaring the observer, we select all the elements that have the `slide-in` class with `document.querySelectorAll()`. Then, we can make the observer watching all those elements by using the method `observe()`.
 
 ```javascript
 const slideInImages = document.querySelectorAll('.slide-in');
@@ -216,8 +216,8 @@ By using `:nth-child(n)` selector, we can select each element and then apply dif
 
 * [What is Debounce in JavaScript?](https://blog.bitsrc.io/what-is-debounce-in-javascript-a2b8e6157a5a)
 * [Debouncing in JavaScript](https://www.geeksforgeeks.org/debouncing-in-javascript/)
-* [Debounce vs Throttle - web dev simplified](https://blog.webdevsimplified.com/2022-03/debounce-vs-throttle/)
-* [Learn Debounce And Throttle In 16 Minutes - web dev simplified](https://www.youtube.com/watch?v=cjIswDCKgu0)
-
+* [Debounce vs Throttle - web dev simplified](https://blog.webdevsimplified.com/2022-03/debounce-vs-throttle/) 
+* [Learn Debounce And Throttle In 16 Minutes - web dev simplified (video)](https://www.youtube.com/watch?v=cjIswDCKgu0)
+* [Subtle, yet Beautiful Scroll Animations - Fireship (video)](https://www.youtube.com/watch?v=T33NN_pPeNI&t=14s)
 * [Intersection Observer API - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 * [Lazy loading using the Intersection Observer API](https://blog.logrocket.com/lazy-loading-using-the-intersection-observer-api/)
