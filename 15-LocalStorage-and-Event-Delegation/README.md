@@ -203,7 +203,7 @@ itemsList.addEventListener('click', toggleDone);
 // list items are created here
 populateList(items, itemsList);
 ```
-According to [this article]((https://gomakethings.com/when-should-you-use-event-delegation/)), there are two major advantages of using event delegation.
+According to [this article](https://gomakethings.com/when-should-you-use-event-delegation/), there are two major advantages of using event delegation.
 
 1. **First, every event listener uses memory in the browser.** So, the more you have, the more memory you use. For web apps that have a larger scale, having too many event listeners can cause performance issues.
 2. **Second, you don’t need to attach and detach listeners whenever you update the UI.** If you attach your listener to a parent element that’s always in the DOM, you don’t need to do anything special whenever you add or remove interactive elements from your UI. The callback function will filter the events by itself.
