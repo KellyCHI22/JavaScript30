@@ -22,7 +22,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 | 13  | Slide in on Scroll                | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/13-Slide-in-on-Scroll/README.md)                | [DEMO](https://kellychi22.github.io/JavaScript30/13-Slide-in-on-Scroll/)                |
 | 14  | JS Reference VS Copy              | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/14-JavaScript-References-VS-Copying/README.md)  | ---                                                                                     |
 | 15  | LocalStorage and Event Delegation | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/15-LocalStorage-and-Event-Delegation/README.md) | [DEMO](https://kellychi22.github.io/JavaScript30/15-LocalStorage-and-Event-Delegation/) |
-
+| 16  | Text Shadow Mouse Move Effect     | [README](https://github.com/KellyCHI22/JavaScript30/blob/main/16-Mouse-Move-Shadow/README.md)                 | [DEMO](https://kellychi22.github.io/JavaScript30/16-Mouse-Move-Shadow/)                 |
 
 ___
 

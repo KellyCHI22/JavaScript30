@@ -7,7 +7,7 @@
 
 - The text shadows move as the user moves his mouse.
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/16-Mouse-Move-Shadow/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -114,7 +114,7 @@ If the mouse is outside the `<h1>` element, the target will become the `hero` el
 
 To fix the inconsistency, when the event target is the `<h1>` element, we can add back the `offsetLeft` and `offsetTop` value of the element itself. (`offsetLeft` and `offsetTop` show the distance between an element and it's parent element)
 
-#### Recap of different coordinate values
+#### Recap of different coordinate properties
 **Element properties**
 
 1. `offsetLeft`, `offsetTop`: distance between the element and its `offsetParent` (closest parent element)
@@ -141,3 +141,5 @@ Besides, we can adjust the percentage from picture 1 to picture 2 to make the te
 * [Destructuring assignment - javascript.info](https://javascript.info/destructuring-assignment#object-destructuring)
 * [MouseEvent.offsetX](https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent/offsetX)
 * [HTMLElement.offsetLeft](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetLeft)
+* [[JS30] Day16: CSS Text Shadow Mouse Move Effect](https://pjchender.dev/js30/js30-day16/) (Chinese)
+* [Day16 CSS Text Shadow Mouse Move Effect](https://ithelp.ithome.com.tw/articles/10195679) (Chinese)
