@@ -7,7 +7,7 @@
 
 - Sort the bands names while neglecting articles like `a`, `an` or `the`
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/17-Sort-Without-Articles/) 
 
 ## :pushpin: Solution
 ### Example solution
