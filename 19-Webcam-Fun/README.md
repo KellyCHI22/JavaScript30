@@ -7,11 +7,11 @@
 
 - Put super cool filters on your streaming video using webcam and canvas. 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/19-Webcam-Fun/) 
 
 ## :pushpin: Solution
 ### Example solution
-Please head towards the js file to see full solution 👉 **[FULL SOLUTION]()** 
+Please head towards the js file to see full solution 👉 **[FULL SOLUTION](https://github.com/KellyCHI22/JavaScript30/blob/main/19-Webcam-Fun/scripts.js)** 
 ```javascript
 function getVideo() {
   navigator.mediaDevices.getUserMedia({ video: true, audio: false })
