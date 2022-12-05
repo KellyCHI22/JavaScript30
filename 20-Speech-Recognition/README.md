@@ -7,7 +7,7 @@
 
 - No need for external libraries or tools for speech recognition! (However this native api is currently only supported in Chrome and it doesn't work offline)
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/20-Speech-Recognition/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -112,3 +112,4 @@ The attribute can take one of the two values: `true` or `false`, to indicate if 
 * [SpeechRecognition - MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
 * [SpeechRecognition: result event - MDN](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/result_event)
 * [contenteditable - MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
+* [[JS30] Day20: Native Speech Recognition (Chinese)](https://pjchender.dev/js30/js30-day20/) 
