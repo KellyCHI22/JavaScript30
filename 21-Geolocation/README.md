@@ -7,7 +7,7 @@
 
 - Understand the basic usage of the Geolocation API
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/21-Geolocation/) 
 
 ## :pushpin: Solution
 ### Example solution
