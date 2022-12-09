@@ -28,6 +28,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 |  19   | Unreal Webcam Fun                 |            [README](https://github.com/KellyCHI22/JavaScript30/blob/main/19-Webcam-Fun/README.md)             |            [DEMO](https://kellychi22.github.io/JavaScript30/19-Webcam-Fun/)             |
 |  20   | Native Speech Recognition         |        [README](https://github.com/KellyCHI22/JavaScript30/blob/main/20-Speech-Recognition/README.md)         |        [DEMO](https://kellychi22.github.io/JavaScript30/20-Speech-Recognition/)         |
 |  21   | Geolocation Compass               |            [README](https://github.com/KellyCHI22/JavaScript30/blob/main/21-Geolocation/README.md)            |            [DEMO](https://kellychi22.github.io/JavaScript30/21-Geolocation/)            |
+|  22   | Follow Along Links Highlighter    |   [README](https://github.com/KellyCHI22/JavaScript30/blob/main/22-Follow-Along-Link-Highlighter/README.md)   |   [DEMO](https://kellychi22.github.io/JavaScript30/22-Follow-Along-Link-Highlighter/)   |
 
 
 ___

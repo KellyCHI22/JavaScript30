@@ -10,7 +10,7 @@
 
 ![](screenshot_3.jpg) 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/22-Follow-Along-Link-Highlighter/) 
 
 ## :pushpin: Solution
 ### My solution
