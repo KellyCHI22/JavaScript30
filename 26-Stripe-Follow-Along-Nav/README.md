@@ -10,7 +10,7 @@
 
 ![](screenshot_2.jpg) 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/26-Stripe-Follow-Along-Nav/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -162,4 +162,5 @@ function handleLeave() {
 
 ## :book: References
 * [Animatable CSS properties - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+* [Element.getBoundingClientRect() - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 * [Logical AND (&&) - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_AND)
