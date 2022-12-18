@@ -7,7 +7,7 @@
 
 - Let the computer read your text in different voices 📢
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/23-Speech-Synthesis/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -114,7 +114,7 @@ msg.text = document.querySelector('[name="text"]').value;
 SpeechSynthesis.speck() // start the speech
 SpeechSynthesis.cancel() // cancel the speech
 SpeechSynthesis.pause() // pause the speech
-speechSynthesis.resume() // restart the speech if paused
+SpeechSynthesis.resume() // restart the speech if paused
 ```
 In the example solution, he calls the `cancel()` and `speak()` methods for starting and stopping the speech. Note that in the `speak()` method, the `msg` argument has to be passed in, so it knows which utterance to speak. 
 ```js
@@ -182,14 +182,14 @@ What if we want to pass in arguments to the function? The following code is not 
 ```js
 stopButton.addEventListener('click', toggle(false));
 ```
-#### Use `function()` statement
+#### (1) Use `function()` statement
 There are several ways to get the work done. First is to use the `function()` statement. But it looks kinda long with two extra lines of code.  
 ```js
 stopButton.addEventListener('click', function() {
     toggle(false)
 });
 ```
-#### Use `bind()` method
+#### (2) Use `bind()` method
 Since `bind()` is a more advanced and complicated concept, here we are only going to explain briefly how it can work in this context. 
 
 `Bind()` method returns a new function which has a `this` and arguments bound with it. If we assign `null` for the `this` parameter, the `this` of the returned function will refer to the `global` context, which is `window` in the browser. 
@@ -198,7 +198,7 @@ Therefore, we are not using `bind()` for changing the `this` here, but to pass i
 ```js
 stopButton.addEventListener('click', toggle.bind(null, false));
 ```
-#### Use arrow function
+#### (3) Use arrow function
 The easiest way might be using an arrow function, which has the same logic as using a `function()` statement, but with much shorter syntax.
 ```js
 stopButton.addEventListener('click', () => toggle(false));
