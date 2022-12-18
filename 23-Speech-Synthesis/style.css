@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600&display=swap');
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DynaPuff', cursive;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background: url('./large-triangles.svg');
+}
+
+.voiceinator {
+  padding: 2rem;
+  width: 50rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  width: calc(100% + 4rem);
+  margin: -2rem 0 2rem -2rem;
+  padding: 3rem .5rem;
+  background: hsl(342, 100%, 79%);
+  border-bottom: 5px solid hsl(342, 100%, 72%);
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 100;
+  text-shadow: 3px 3px 0 hsl(342, 100%, 72%);
+}
+
+.voiceinator input,
+.voiceinator button,
+.voiceinator select,
+.voiceinator textarea {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  font-size: 2rem;
+  background: #F7F7F7;
+  outline: 0;
+}
+
+textarea {
+  height: 20rem;
+}
+
+.voiceinator button {
+  background: hsl(342, 100%, 79%);
+  border: 0;
+  width: 49%;
+  float: left;
+  margin-bottom: 0;
+  font-family: 'DynaPuff', cursive;
+  font-size: 2rem;
+  border-bottom: 5px solid hsl(342, 100%, 72%);
+  cursor: pointer;
+  position: relative;
+}
+
+.voiceinator button:active {
+  top: 2px;
+}
+
+.voiceinator button:nth-of-type(1) {
+  margin-right: 2%;
+}
