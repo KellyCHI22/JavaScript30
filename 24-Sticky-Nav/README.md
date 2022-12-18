@@ -8,7 +8,7 @@
 - As the user scrolls down, the navbar will stick on the top of the page
 - The logo will slide in when the hero image is no longer visible
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/24-Sticky-Nav/) 
 
 ## :pushpin: Solution
 ### Example solution
