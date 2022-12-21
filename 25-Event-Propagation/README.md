@@ -7,7 +7,7 @@
 
 - Understand basic ideas of JavaScript event propagation, capturing and bubbling 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/25-Event-Propagation/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -125,7 +125,7 @@ button.addEventListener('click', () => {
     once: true
 });
 ```
-No matter how many times we click on the button, it will only logs out "Click!!!" once. 
+No matter how many times we click on the button, it will only log out "Click!!!" once. 
 
 ![](screenshot_7.jpg)
 
