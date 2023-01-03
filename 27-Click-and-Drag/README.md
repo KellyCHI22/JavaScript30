@@ -3,14 +3,14 @@
 
 ![](./screenshot_1.jpg)
 
-![](screenrecord_1.gif)
+![](./screenrecord_1.gif)
 
 ### Main goal
 
 - Create horizontal slide effect when the mouse is hold and dragged.
 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/27-Click-and-Drag/) 
 
 ## :pushpin: Solution
 ### Example solution
@@ -49,7 +49,7 @@ slider.addEventListener('mousemove', (e) => {
 ### My solution
 I changed a bit the design and add some elements inside the items to make it look closer to a design that we can see in common projects. I also get some design ideas from [this codepen](https://codepen.io/David6Blue/pen/JejmOO) by @David6Blue. Below is the original design. 
 
-![](screenshot_3.jpg)
+![](./screenshot_3.jpg)
 
 ## :pencil2: Takeaways
 
@@ -91,7 +91,7 @@ slider.addEventListener('mousedown', (e) => {
 ```
 First, we can get the initial position of the mouse `startX` by using `e.pageX` and `slider.offsetLeft`. The `e.pageX` returns the X (horizontal) coordinate at which the mouse was clicked. The `slider.offsetLeft` gives us the distance between the left border of the slider and the left edge of the page. 
 
-![](screenshot_2.jpg)
+![](./screenshot_2.jpg)
 
 Also, we need to know how much the slider has been scrolled initially before the user start dragging. The value can be get easily by the `scrollLeft` property. 
 

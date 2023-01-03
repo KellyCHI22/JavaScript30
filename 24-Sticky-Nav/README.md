@@ -3,6 +3,8 @@
 
 ![](./screenshot_1.jpg)
 
+![](./screenrecord_1.gif)
+
 ### Main goal
 
 - As the user scrolls down, the navbar will stick on the top of the page

@@ -3,12 +3,14 @@
 
 ![](./screenshot_1.jpg)
 
+![](./screenrecord_1.gif)
+
 ### Main goal
 
 - When the user hovers over the links on the navbar, dropdown menus will appear. And the dropdowns will seem to be resizing themselves as the pointer moves to another link.
 - This is the second part of reverse engineering the Stripe homepage dropdown menu effects (for the first part please refer to [day 22](https://github.com/KellyCHI22/JavaScript30/tree/main/22-Follow-Along-Link-Highlighter))
 
-![](screenshot_2.jpg) 
+![](./screenshot_2.jpg) 
 
 ### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/26-Stripe-Follow-Along-Nav/) 
 
@@ -122,25 +124,25 @@ function handleEnter() {
     background.style.setProperty('transform', `translate(${coords.left}px, ${coords.top}px)`);
 }
 ```
-![](screenshot_3.jpg)
+![](./screenshot_3.jpg)
 
 Everything works perfectly fine as long as there's no other elements above the navbar. But when we add something, for example a title like the one in my demo, the background div will longer be at the correct position!
 
-![](screenshot_4.jpg)
+![](./screenshot_4.jpg)
 
 This is because the background div has an absolute position relative to the navbar's position. When we set the `transform` property to the background div, it's (0, 0) is located at the top left corner of the navbar. However, the coordinates we get from `getBoundingClientRect()` is relative to the `viewport`. **When there is an element above the navbar, the (0, 0) of the navbar is no longer the same as the (0, 0) of the viewport**, so the background div will not be set to the correct position if we use directly the coordinates of the dropdown menu.
 
-![](screenshot_4-1.jpg)
+![](./screenshot_4-1.jpg)
 
 To fix this, we can minus the `top` and the `left` coordinates of the navbar to put the background div back to its correct position. 
 
-![](screenshot_5.jpg)
+![](./screenshot_5.jpg)
 
 ### 6. Use logical AND (`&&`) to check if the class is already added
 
 There's still a small problem we need to fix. If we move the pointer very fast between the links, the contents might remain showing even after the pointer has already left the link. If we take a look at the devtools, we will find that the `.trigger-enter-active` class is sill added to the elements. 
 
-![](screenshot_6.jpg)
+![](./screenshot_6.jpg)
 
 The reason why this is happening is because we use `setTimeout()` to add the `.trigger-enter-active` class after 150ms inside the `handleEnter()` function. However, in the `handleLeave()` function, we remove both `.trigger-enter-active` class and `.trigger-enter` class at the same time. 
 

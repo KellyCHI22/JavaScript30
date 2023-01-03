@@ -1,7 +1,7 @@
 # 16 - Text Shadow Mouse Move Effect
 ## :eyes: Introduction
 
-![](./screenshot_1.jpg)
+![](./screenrecord_1.gif)
 
 ### Main goal
 

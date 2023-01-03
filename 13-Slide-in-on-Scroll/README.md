@@ -1,7 +1,7 @@
 # 13 - Slide in on Scroll
 ## :eyes: Introduction
 
-![](./screenshot_1.jpg)
+![](./screenrecord_1.gif)
 
 ### Main goals
 

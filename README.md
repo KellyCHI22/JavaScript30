@@ -33,7 +33,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 |  24   | Sticky Nav                        |            [README](https://github.com/KellyCHI22/JavaScript30/blob/main/24-Sticky-Nav/README.md)             |            [DEMO](https://kellychi22.github.io/JavaScript30/24-Sticky-Nav/)             |
 |  25   | Event Propagation                 |         [README](https://github.com/KellyCHI22/JavaScript30/blob/main/25-Event-Propagation/README.md)         |         [DEMO](https://kellychi22.github.io/JavaScript30/25-Event-Propagation/)         |
 |  26   | Stripe Follow Along Dropdown      |      [README](https://github.com/KellyCHI22/JavaScript30/blob/main/26-Stripe-Follow-Along-Nav/README.md)      |      [DEMO](https://kellychi22.github.io/JavaScript30/26-Stripe-Follow-Along-Nav/)      |
-
+|  27   | Click and Drag to Scroll          |          [README](https://github.com/KellyCHI22/JavaScript30/blob/main/27-Click-and-Drag/README.md)           |          [DEMO](https://kellychi22.github.io/JavaScript30/27-Click-and-Drag/)           |
 
 ___
 
