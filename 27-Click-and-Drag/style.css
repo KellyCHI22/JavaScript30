@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;600&family=Seymour+One&display=swap');
+
+html {
+  box-sizing: border-box;
+  background-color: rgb(9, 4, 37);
+  background-size: cover;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+h1 {
+  margin: 2rem;
+  font-family: 'Seymour One', sans-serif;
+}
+
+.items {
+  padding: 50px;
+  width: 75vw;
+  border: 1px solid white;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  position: relative;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 0;
+  border-radius: 20px;
+}
+
+.items.active {
+  background: rgba(255, 255, 255, 0.2);
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
+}
+
+.item {
+  width: 400px;
+  height: 450px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  white-space: normal;
+  margin: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, .5);
+}
+
+.item-title {
+  font-family: 'Seymour One', sans-serif;
+}
+
+.item-btn {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-family: 'Seymour One', sans-serif;
+  font-size: 1rem;
+  background-color: white;
+  color: var(--background);
+  transition: all 200ms ease;
+}
+
+.item-btn:hover {
+  transform: scale(1.03) translateX(2.5%) translateY(-2.5%);
+  box-shadow: -5px 5px 0 rgba(0, 0, 0, .25);
+  ;
+}
+
+.item:nth-child(9n+1) {
+  --background: hotpink;
+  background: hotpink;
+}
+
+.item:nth-child(9n+2) {
+  --background: goldenrod;
+  background: goldenrod;
+}
+
+.item:nth-child(9n+3) {
+  --background: seagreen;
+  background: seagreen;
+}
+
+.item:nth-child(9n+4) {
+  --background: slateblue;
+  background: slateblue;
+}
+
+.item:nth-child(9n+5) {
+  --background: cadetblue;
+  background: cadetblue;
+}
+
+.item:nth-child(9n+6) {
+  --background: tomato;
+  background: tomato;
+}
+
+.item:nth-child(9n+7) {
+  --background: lightcoral;
+  background: lightcoral;
+}
+
+.item:nth-child(9n+8) {
+  --background: goldenrod;
+  ;
+  background: goldenrod;
+}
+
+.item:nth-child(9n+9) {
+  --background: rebeccapurple;
+  background: rebeccapurple;
+}
+
+/* .item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); } */
+/* .item:nth-child(odd) {
+  transform: scaleX(1.31) rotateY(-40deg);
+} */
