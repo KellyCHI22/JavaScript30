@@ -8,7 +8,7 @@
 - A very simple countdown timer with various options. The user can customize the time too.
 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/29-Countdown-Timer/) 
 
 ## :pushpin: Solution
 ### Example solution

@@ -35,7 +35,7 @@ Here's a collection of all my [JavaScript30](https://javascript30.com/) practice
 |  26   | Stripe Follow Along Dropdown      |      [README](https://github.com/KellyCHI22/JavaScript30/blob/main/26-Stripe-Follow-Along-Nav/README.md)      |      [DEMO](https://kellychi22.github.io/JavaScript30/26-Stripe-Follow-Along-Nav/)      |
 |  27   | Click and Drag to Scroll          |          [README](https://github.com/KellyCHI22/JavaScript30/blob/main/27-Click-and-Drag/README.md)           |          [DEMO](https://kellychi22.github.io/JavaScript30/27-Click-and-Drag/)           |
 |  28   | Video Speed Controller            |      [README](https://github.com/KellyCHI22/JavaScript30/blob/main/28-Video-Speed-Controller/README.md)       |      [DEMO](https://kellychi22.github.io/JavaScript30/28-Video-Speed-Controller/)       |
-
+|  29   | Countdown Timer                   |          [README](https://github.com/KellyCHI22/JavaScript30/blob/main/29-Countdown-Timer/README.md)          |          [DEMO](https://kellychi22.github.io/JavaScript30/29-Countdown-Timer/)          |
 ___
 
 [JavaScript30](https://javascript30.com/) is a free course created by Wes Bos where you can practice vanilla javascript skills by doing small and fun projects.
