@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background-color: rgba(0, 0, 0, .3);
+  background-image: url(./layered-waves-haikei.svg);
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: multiply;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Space Mono', monospace;
+}
+
+.display__time-left {
+  font-weight: 100;
+  font-size: 18rem;
+  margin: 0;
+  color: white;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.05);
+}
+
+.timer {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.timer__controls {
+  display: flex;
+}
+
+.timer__controls>* {
+  flex: 1;
+}
+
+.timer__controls form {
+  flex: 1;
+  display: flex;
+}
+
+.timer__controls input {
+  flex: 1;
+  padding: 2rem;
+  font-family: inherit;
+  border: none;
+}
+
+.timer__button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-family: 'Space Mono', monospace;
+}
+
+.timer__button:hover {
+  background-color: #FA7268;
+  outline: 0;
+}
+
+.timer__button:focus {
+  background-color: #C62368;
+  outline: 0;
+}
+
+.display {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.display__end-time {
+  font-size: 4rem;
+  color: white;
+}
+
+.progress {
+  width: 500px;
+  height: 1rem;
+  background-color: black;
+  opacity: .8;
+}
+
+.progress-bar {
+  width: 0px;
+  height: 1rem;
+  background-color: white;
+  transition: all 300ms ease;
+}
