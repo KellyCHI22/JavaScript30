@@ -8,7 +8,7 @@
 - The user can control the video speed by hovering over the speed bar.
 
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/28-Video-Speed-Controller/) 
 
 ## :pushpin: Solution
 ### Example solution
