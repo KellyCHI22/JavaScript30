@@ -1,0 +1,121 @@
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+  background: #ffc600;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Amatic SC', cursive;
+}
+
+.whack {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 10rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.start-btn {
+  cursor: pointer;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  font-size: 5rem;
+  font-family: inherit;
+  background-color: black;
+  color: #ffc600;
+}
+
+.start-btn:hover {
+  transform: scale(1.05);
+}
+
+.score {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0;
+  padding: 0.8rem 2rem;
+  border-radius: 5rem;
+  font-size: 5rem;
+}
+
+.final {
+  background-color: black;
+  color: #ffc600;
+}
+
+.time-left {
+  margin: 0;
+  padding: 0.8rem 2rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  font-size: 6rem;
+}
+
+.game {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.hole {
+  flex: 1 0 33.33%;
+  overflow: hidden;
+  position: relative;
+}
+
+.hole:after {
+  display: block;
+  background: url(dirt.svg) bottom center no-repeat;
+  background-size: contain;
+  content: '';
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  z-index: 2;
+  bottom: -30px;
+}
+
+.mole {
+  cursor: pointer;
+  background: url('mole.svg') bottom center no-repeat;
+  background-size: 60%;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s;
+}
+
+.hole.up .mole {
+  top: 0;
+}
