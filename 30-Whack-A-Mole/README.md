@@ -7,7 +7,7 @@
 
 - A simple whack a mole game. Click the moles to get as many points as you can before the time runs out!
 
-### Demo: 👉 [Click me]() 
+### Demo: 👉 [Click me](https://kellychi22.github.io/JavaScript30/30-Whack-A-Mole/) 
 
 ## :pushpin: Solution
 ### Example solution
