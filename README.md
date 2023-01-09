@@ -1,10 +1,9 @@
 # JavaScript30
 
 ![](./Javascript30_cover.jpg)
+### See all my projects here 👉 [My JavaScript30](https://kellychi22.github.io/JavaScript30/) 👈
 
-Here's a collection of all my [JavaScript30](https://javascript30.com/) practices.
-
-
+### Challenge list
 |  No   | ✨ Title                           |                                                    ✏️ Notes                                                    |                                         👀 DEMO                                          |
 | :---: | --------------------------------- | :-----------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
 |  01   | JavaScript Drum Kit               |        [README](https://github.com/KellyCHI22/JavaScript30/blob/main/01-JavaScript-Drum-Kit/README.md)        |        [DEMO](https://kellychi22.github.io/JavaScript30/01-JavaScript-Drum-Kit/)        |
