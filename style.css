@@ -349,6 +349,7 @@ body {
 @media (max-width: 600px) {
 
     body {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -386,9 +387,7 @@ body {
     }
 
     .bg-pattern_2 {
-        top: unset;
-        right: -10rem;
-        bottom: -8rem;
+        display: none;
     }
 
     .challenges {
@@ -402,5 +401,9 @@ body {
     .other-link+.other-link {
         border: unset;
         border-top: 2px solid black;
+    }
+
+    .bg-pattern_1-2 {
+        display: none;
     }
 }
