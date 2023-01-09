@@ -386,8 +386,10 @@ body {
         z-index: -1;
     }
 
-    .bg-pattern_2 {
-        display: none;
+    .bg-pattern_3 {
+        bottom: -5rem;
+        left: -1rem;
+        z-index: -1;
     }
 
     .challenges {
@@ -403,7 +405,17 @@ body {
         border-top: 2px solid black;
     }
 
-    .bg-pattern_1-2 {
+    .bg-pattern_2 {
         display: none;
+    }
+
+    .bg-pattern_4 {
+        top: 13rem;
+        left: 0;
+    }
+
+    .bg-pattern_1-2 {
+        top: -4rem;
+        right: 0rem;
     }
 }
