@@ -279,7 +279,7 @@ function generateChallenges() {
         challengeList.innerHTML += `
             <div class="challenge">
                 <div class="challenge__title">#<span class="challenge__id">${challenge.id}</span>${challenge.title.toUpperCase()}</div>
-                <img class="challenge__img" src="${challenge.image}" alt="">
+                <img class="challenge__img" src="${challenge.image}" alt="${challenge.title}">
                 <div class="challenge__links">
                     <a class="challenge__link demo__link" href="${challenge.demo}" target="_blank"><i class="fa-regular fa-eye"></i>demo</a>
                     <a class="challenge__link repo__link" href="${challenge.repo}" target="_blank"><i class="fa-brands fa-github"></i>repo</a>
