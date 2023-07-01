@@ -69,7 +69,7 @@ root.style.setProperty('--spacing', `${spacing.value}px`);
 
 ### 2. Difference between a `Nodelist` and an `Array` 
 
-A NodeList has items stored at numeric indices and a length property just like an Array, but it does not have have any of the other Array methods (`push`, `slice` and so on). `NodeList` has its own prototype with a single method instead of inheriting from the `Array` prototype.
+A NodeList has items stored at numeric indices and a length property just like an Array, but it does not have any of the other Array methods (`push`, `slice` and so on). `NodeList` has its own prototype with a single method instead of inheriting from the `Array` prototype.
 
 ```javascript
 const inputs = document.querySelectorAll('.controls input');
